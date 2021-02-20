@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Information System Project No.2 2021</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+            
+        <div class="header-logo">
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="./index.html" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="./index.html" title="works">Courses</a></li>
+                <li class="current"><a class="smoothscroll"  href="./index.html#projects" title="blog" target="_blank">Projects</a></li>
+                <li><a class="smoothscroll"  href="./index.html" title="blog">Research Interests</a></li>
+                <li><a class="smoothscroll"  href="./index.html" title="contact">About me</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+                        
+
+    <article class="blog-single">
+
+        <!-- page header/blog hero
+        ================================================== -->
+        <div class="page-header page-header--single page-hero" style="background-image:url(images/courses/iss@2x.jpg)">
+        
+            <div class="row page-header__content narrow">
+                <article class="col-full">
+                    <div class="page-header__info">
+                        <div class="page-header__cat">
+                            <a href="#0">Projects</a>
+                        </div>
+                    </div>
+                    <h1 class="page-header__title">
+                        <a href="#0" title="">
+                            Information System Project No.2
+                        </a>
+                    </h1>
+                    <ul class="page-header__meta">
+                        <li class="date">Time: 22/02/2021 – 16/05/2021</li>
+                        <li class="author">
+                            By
+                            <span>Kim Khanh Tran</span>
+                        </li>
+                    </ul>
+                    
+                </article>
+            </div>
+    
+        </div> <!-- end page-header -->
+
+        <div class="row blog-content">
+            <div class="col-full blog-content__main">
+                <p class="lead-detail">Nội dung/mục tiêu chi tiết, kế hoạch, thời gian cho đồ án 2 năm học 2020-2021
+                </p>
+                <h2 class="h2-detail">Kế hoạch, thời gian</h2>
+                <p>
+                    Thời gian thực hiện: <i>trên banner</i><br>
+                    Thời gian báo cáo: Trước 08/06/2021
+                </p>
+                <h2 class="h2-detail">Mục lục đề tài</h2>
+                <ol>
+                    <li><a class="smoothscroll" href="#1">Ứng dụng web quản lý thông tin điểm</a></li>
+                    <li><a class="smoothscroll" href="#2">Ứng dụng phần mềm quản lý chi tiêu nhóm</a></li>
+                    <li><a class="smoothscroll" href="#3">Ứng dụng web quản lý công việc theo dự án nhóm</a></li>
+                    <li><a class="smoothscroll" href="#4">Django và xây dựng ứng dụng thông tin minh hoạ</a></li>
+                </ol>
+                <h2 class="h2-detail">Nội dung, mục tiêu</h2>
+                <ol>
+                    <section id="1">
+                    <li class="li-pregrad">Xây dựng ứng dụng web quản lý thông tin điểm</li>
+                        <h3 class="h3-detail">Mục tiêu</h3>
+                        <p>
+                            <ul>
+                                <li>Admin sẽ tạo giảng viên và sinh viên, tạo môn học phân môn cho giảng viên.</li>
+                                <li>Nhập điểm giữa kỳ và cuối kỳ -> tự tính điểm cuối kỳ và xếp loại.</li>
+                                <li>Giảng viên bấm lưu sẽ khoá chức năng sửa điểm, trừ phi giảng viên có 1 edit request và admin duyệt.</li>
+                                <li>Khi có bất kì cột điểm nào thì sinh viên sẽ nhận được thông báo mail có điểm. Và điểm này chỉ riêng sinh viên đó và giảng viên dạy mới được thấy.</li>
+                                <li>Giảng viên có thể thống kê với bảng điểm của mỗi lớp. Cho ra tỉ lệ đậu và rớt,v.v.</li>
+                            </ul>
+                        </p>
+                        <h3 class="h3-detail">Yêu cầu thực hiện</h3>
+                        <p>
+                            <ul>
+                                <li>Lập trình theo hướng đối tượng / cấu trúc theo mô hình MVC</li>
+                                <li>Người dùng: giảng viên, sinh viên, admin</li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <section id="2">
+                    <li class="li-pregrad">Xây dựng phần mềm quản lý chi phí chi tiêu của nhóm</li>
+                        <h3 class="h3-detail">Mục tiêu</h3>
+                        <p>
+                            <ul>
+                            <li>Admin sẽ tạo group, tạo user</li>
+                            <li>User sẽ join vào group mà họ muốn.</li>
+                            <li>User có quyền tạo khoảng chi và điền số tiền mà user đó đã chi.</li>
+                            <li>Cứ như thế, sau khi kết thúc trip (sẽ được Admin thiết lập lúc tạo group), phần mềm sẽ tính ai sẽ trả chi phí lại cho ai bao nhiêu tiền.</li>
+                            <li>Mỗi khoảng phí hoặc đã thanh toán User đã chi trả có thể set trạng thái đã nhận tiền.</li>
+                            </ul>
+                        </p>
+                    <h3 class="h3-detail">Yêu cầu thực hiện</h3>
+                        <p>
+                            <ul>
+                                <li>Lập trình theo hướng đối tượng / cấu trúc theo mô hình MVC</li>
+                                <li>Người dùng: user, admin</li>
+                            </ul>
+                        </p>
+                        </section>
+
+                    <section id="3">
+                    <li class="li-pregrad">Xây dựng ứng dụng web quản lý công việc theo dự án nhóm</li>
+                        <h3 class="h3-detail">Mục tiêu</h3>
+                        <p>
+                            <ul>
+                                <li>Admin sẽ tạo user, tạo vai trò trong 1 project: leader, vice-leader, member.
+                                    Admin có thể điều chỉnh quyền lực của leader và vice-leader.
+                                <li>Người tạo 1 dự án mới sẽ mặc định là leader. Thêm user có sẳn.
+                                <li>Leader sẽ phân nhiệm vụ cho mỗi thành viên và hạn deadline. 
+                                <li>Thành viên đăng nhập vào sẽ có nhiệm vụ:
+                                    <ul style="list-style: circle;">
+                                        <li>Thấy được các dự án mà mình được tham gia</li>
+                                        <li>Thấy đc danh sách toàn bộ công việc, với công việc thành viên đó được giao thì thành viên này được quyền viết bình luận, check trạng thái: chưa hoàn tất, đang chờ duyệt, đã hoàn tất.</li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </p>
+                    <h3 class="h3-detail">Yêu cầu thực hiện</h3>
+                        <p>
+                            <ul>
+                                <li>Người dùng trong hệ thống (gợi ý): Admin, user.</li>
+                            </ul>
+                        </p>
+                    </section>
+                
+                    <section id="4">
+                <li class="li-pregrad">Tìm hiểu Django và xây dựng ứng dụng thông tin minh hoạ</li>
+                    <h3 class="h3-detail">Mục tiêu</h3>
+                    <p>
+                        <ul>
+                            <li>Phải trình bày được mô hình hoạt động của Django</li>
+                            <li>Phải hiểu và vận dụng tốt framework này cho ứng dụng minh hoạ</li>
+                            <li>Ứng dụng minh hoạ: Blog thông tin thời gian làm việc của một cá nhân (tương tự như TODO webapp).</li>
+                            <li>Chức năng:
+                                <ul style="list-style: circle;">
+                                    <li>Web sẽ có 2 page: Adminpage and homepage.</li>
+                                    <li>Admin page: 
+                                    <ul style="list-style: square;">
+                                        <li>dùng để quản lý thông tin làm việc, quản lý loại công việc.</li>
+                                        <li>cho phép thiết lập password cho việc truy cập vào xem thông tin, cho phép hiển thị hay không thông tin làm việc đó ra ngoài homepage.</li>
+                                    </ul>
+                                    </li>
+                                    <li>Homepage:
+                                    <ul style="list-style: square;">
+                                        <li>Nếu có password xem, viewer phải gõ password mới vào xem được list thời gian làm việc của chủ blog.</li>
+                                        <li>Hiển thị các công việc được phép công khai theo thời gian tăng dần.</li>
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>
+                </section>
+                </ol>
+                
+                
+                <!-- <p class="blog-content__tags">
+                    <span>Post Tags</span>
+
+                    <span class="blog-content__tag-list">
+                        <a href="#0">orci</a>
+                        <a href="#0">lectus</a>
+                        <a href="#0">varius</a>
+                        <a href="#0">turpis</a>
+                    </span>
+
+                </p> -->
+
+                <!-- <div class="blog-content__pagenav">
+                    <div class="blog-content__nav">
+                        <div class="blog-content__prev">
+                            <a href="#0" rel="prev">
+                                <span>Previous Post</span>
+                                Tips on Minimalist Design 
+                            </a>
+                        </div>
+                        <div class="blog-content__next">
+                            <a href="#0" rel="next">
+                                <span>Next Post</span>
+                                Less Is More 
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-content__all">
+                        <a href="blog.html" class="btn btn--primary">
+                            View All Post
+                        </a>
+                    </div>
+                </div> -->
+
+            </div><!-- end blog-content__main -->
+        </div> <!-- end blog-content -->
+
+    </article>
+
+
+    <!-- comments
+    ================================================== -->
+    
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+            <div class="row">
+                <div class="col-full">
+
+                    <div class="footer-logo">
+                        <a class="footer-site-logo" href="#0"><img src="images/courses/chi.png" alt="Homepage"></a>
+                    </div>
+    
+                    <ul class="footer-social">
+                        <li><a href="https://www.facebook.com/kkhanh.tran.yc/">
+                            <i class="im im-facebook" aria-hidden="true"></i>
+                            <span>Facebook</span>
+                        </a></li>
+                        <li><a href="https://www.instagram.com/homo_meo">
+                            <i class="im im-instagram" aria-hidden="true"></i>
+                            <span>Instagram</span>
+                        </a></li>
+                    </ul>
+                        
+                </div>
+            </div>
+    
+            <div class="row footer-bottom">
+    
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright Hola 2017</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                    </div>
+    
+                    <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+    
+            </div> <!-- end footer-bottom -->
+    
+        </footer> <!-- end footer -->
+    
+    
+        <div id="preloader"> 
+            <div id="loader"></div>
+        </div>
+    
+    
+        <!-- Java Script
+        ================================================== -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
